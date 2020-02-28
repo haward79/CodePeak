@@ -1,0 +1,24 @@
+/*
+ *  Define rules for overriding <ul> and <ol>.
+ */
+
+@charset "utf-8";
+
+.unorderedList_explicit_block
+{
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.unorderedList_explicit_block li
+{
+    padding: 3px 0px;
+}
+
+.unorderedList_implicit_block
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+

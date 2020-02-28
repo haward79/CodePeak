@@ -1,0 +1,68 @@
+/*
+ *  Define rules for login form.
+ */
+
+@charset "utf-8";
+
+/* login form */
+.loginForm_form
+{
+    padding: 10px;
+}
+
+/* login form -> error message */
+.loginForm_errorMessage_text
+{
+    margin: 0px 0px 5px;
+    padding: 3px;
+    border-left: 4px solid #d99820;
+    background-color: #fbdeaa;
+    color: #95660e;
+    font-size: 14px;
+    font-family: '微軟正黑體', Arial;
+}
+
+/* login form -> input text */
+.loginForm_input_text
+{
+    margin: 0px 0px 10px;
+    padding: 3px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid silver;
+    font-size: 14px;
+    font-family: '微軟正黑體', Arial;
+}
+
+.loginForm_input_text:hover, .loginForm_input_text:focus
+{
+    border: 1px solid #95660e;
+}
+
+.loginForm_input_text_withIcon
+{
+    padding: 3px 0px 3px 23px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px 20px;
+}
+
+/* login form -> button */
+.loginForm_button_submit
+{
+    display: block;
+    margin: 10px auto 0px;
+    padding: 3px;
+    width: 60px;
+    border: 1px solid silver;
+    background-color: white;
+    font-size: 14px;
+    font-family: '微軟正黑體', Arial;
+}
+
+.loginForm_button_submit:hover, .loginForm_button_submit:focus
+{
+    border: 1px solid #95660e;
+    background-color: #ffe0a7;
+}
+

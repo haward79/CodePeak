@@ -1,0 +1,31 @@
+/*
+ *  Switcher style rules.
+ */
+
+@charset "utf-8";
+
+.switch_menu_block
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid black;
+}
+
+.switch_menu_block li
+{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px 5px 0px 0px;
+    font-family: 微軟正黑體, Arial;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.switch_menu_block li:hover
+{
+    background-color: #00000017;
+    border: 1px solid silver;
+}
+

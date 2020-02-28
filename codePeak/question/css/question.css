@@ -1,0 +1,39 @@
+/*
+ *  Style rules for question show detail.
+ */
+
+@charset "utf-8";
+
+/* text */
+.question_text_title
+{
+    margin: 15px 0px 5px;
+    font-family: 標楷體, 'Times New Roman';
+}
+
+.question_text_subtitle
+{
+    margin: 5px 0px 15px;
+    color: #464646;
+    font-family: 微軟正黑體, 'Arial';
+    font-size: 14px;
+}
+
+.question_text_textarea
+{
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    border-width: 0px;
+    font-family: 微軟正黑體, 'Arial';
+    font-size: 16px;
+}
+
+.question_text_textarea:hover
+{
+    background-color: #f8ead1;
+}
+

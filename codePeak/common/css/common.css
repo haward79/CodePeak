@@ -1,0 +1,116 @@
+/*
+ *  Define rules for general page style.
+ */
+
+@charset "utf-8";
+
+*
+{
+    box-sizing: border-box;
+}
+
+/* body */
+body
+{
+    margin: 0px;
+}
+
+#page_body
+{
+    margin: 0px auto;
+    max-width: 960px;
+}
+
+/* header */
+header
+{
+    height: 200px;
+    position: relative;
+    background-image: url('../image/bg_yue.jpg');
+    background-size: 960px 200px;
+}
+
+#header_text_container
+{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+}
+
+#header_text_container h1
+{
+    margin: 0px;
+    text-shadow: 0px 0px 15px gray;
+    font-size: 70px;
+    font-family: 'Supermercado One';
+}
+
+#header_text_container h2
+{
+    margin: 0px;
+    position: relative;
+    top: -15px;
+    text-shadow: 0px 0px 15px silver;
+    font-size: 20px;
+    font-family: 微軟正黑體, Arial;
+}
+
+/* footer */
+footer
+{
+    margin: 20px 0px 0px;
+    min-height: 100px;
+    border-top: 1px solid #95660e;
+    text-align: center;
+}
+
+/* text */
+h1
+{
+    font-family: 微軟正黑體, Arial;
+    font-size: 20px;
+}
+
+p
+{
+    font-family: 微軟正黑體, Arial;
+    font-size: 16px;
+}
+
+/* link */
+a:link, a:visited
+{
+    color: #95660e;
+    text-decoration: none;
+}
+
+a:hover, a:active
+{
+    text-shadow: 0px 0px 5px gray;
+}
+
+/* spacer */
+.spacer_tiny_block
+{
+    display: block;
+    height: 20px;
+}
+
+.spacer_small_block
+{
+    display: block;
+    height: 40px;
+}
+
+.spacer_medium_block
+{
+    display: block;
+    height: 60px;
+}
+
+.spacer_large_block
+{
+    display: block;
+    height: 80px;
+}
+

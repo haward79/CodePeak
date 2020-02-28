@@ -1,0 +1,37 @@
+/*
+ *  Style rules for question list table.
+ */
+
+@charset "utf-8";
+
+.questionList_table
+{
+    width: 100%;
+}
+
+.questionList_table th, .questionList_table td
+{
+    text-align: center;
+}
+
+.questionList_table_column_id
+{
+    width: 70px;
+}
+
+.questionList_table_column_title
+{
+    text-align: left !important;
+}
+
+.questionList_table_column_lastModify
+{
+    width: 120px;
+}
+
+.questionList_table_column_privilege
+{
+    width: 60px;
+    cursor: pointer;
+}
+

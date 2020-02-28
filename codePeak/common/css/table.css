@@ -1,0 +1,43 @@
+/*
+ *  Override html defined table.
+ */
+
+@charset "utf-8";
+
+.table_block
+{
+    display: table;
+    border-collapse: collapse;
+}
+
+.table_block thead
+{
+    display: table-row-group;
+}
+
+.table_block tbody
+{
+    display: table-row-group;
+}
+
+.table_block tr
+{
+    display: table-row;
+}
+
+.table_block tr:hover
+{
+    background-color: #00000017;
+}
+
+.table_block th, .table_block td
+{
+    display: table-cell;
+    padding: 5px 10px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    font-family: 微軟正黑體, Arial;
+    font-size: 16px;
+    font-weight: normal;
+}
+

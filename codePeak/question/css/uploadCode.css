@@ -1,0 +1,28 @@
+/*
+ *  Setup upload from source and file element style.
+ */
+
+@charset "utf-8";
+
+#uploadCode_sourceText
+{
+    padding: 0px 10px 15px;
+    border: 1px solid silver;
+}
+
+#uploadCode_list_sourceText li
+{
+    margin: 10px 0px;
+}
+
+#uploadCode_sourceFile
+{
+    padding: 0px 10px 15px;
+    border: 1px solid silver;
+}
+
+#uploadCode_list_sourceFile li
+{
+    margin: 10px 0px;
+}
+

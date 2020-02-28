@@ -1,0 +1,36 @@
+/*
+ *  Style rules for boxes.
+ */
+
+/* element block */
+.box_element_block
+{
+    margin: 10px 5px;
+    padding: 0px;
+    min-height: 150px;
+    border: 1px solid #979797;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* block title */
+.box_element_block h1
+{
+    margin: 0px;
+    padding: 2px 10px;
+    background-color: #e2e2e2;
+    border-bottom: 1px solid #7c7c7c;
+    border-radius: 10px 10px 0px 0px;
+    font-family: 微軟正黑體, 'Arial';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* block content */
+.box_content_block
+{
+    margin: 5px 0px;
+    padding: 5px 10px;
+    font-family: 微軟正黑體, 'Arial';
+    font-size: 16px;
+}
+

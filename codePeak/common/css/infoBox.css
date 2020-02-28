@@ -1,0 +1,32 @@
+/*
+ *  Define rules for info boxes.
+ */
+
+@charset "utf-8";
+
+.infoBox_block
+{
+    margin: 10px 0px 5px;
+}
+
+.infoBox_title_text
+{
+    margin: 0px;
+    padding: 5px;
+    border-left: 5px solid #95660e;
+    border-bottom: 1px solid #95660e;
+    color: #b37e1b;
+    font-family: 標楷體, 'Times New Roman';
+    font-size: 20px;
+}
+
+.infoBox_content_block
+{
+    padding: 10px;
+    border-right: 1px solid #95660e;
+    border-bottom: 1px solid #95660e;
+    border-radius: 0px 0px 10px 0px;
+    font-family: 微軟正黑體, Arial;
+    font-size: 16px;
+}
+

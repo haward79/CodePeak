@@ -1,0 +1,94 @@
+/*
+ *  Define css rules for form elements.
+ */
+
+@charset "utf-8";
+
+/* form */
+.form_block
+{
+    padding: 10px;
+}
+
+/* Group container */
+.form_element_container
+{
+    margin: 10px 5px;
+}
+
+/* Textbox */
+.form_textbox
+{
+    margin: 0px 0px 10px;
+    padding: 5px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid silver;
+    font-family: '微軟正黑體', Arial;
+    font-size: 14px;
+}
+
+.form_textbox:hover, .form_textbox:focus
+{
+    border: 1px solid #95660e;
+}
+
+.form_textbox_withIcon
+{
+    padding: 3px 0px 3px 23px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px 30px;
+}
+
+/* Textarea */
+.form_textarea
+{
+    padding: 5px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    vertical-align: top;
+    border: 1px solid silver;
+    font-family: '微軟正黑體', Arial;
+    font-size: 14px;
+}
+
+.form_textarea:hover, .form_textarea:focus
+{
+    border: 1px solid #95660e;
+}
+
+/* Button */
+.form_button
+{
+    padding: 3px 10px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: 微軟正黑體, Arial;
+    font-size: 14px;
+}
+
+.form_button:hover
+{
+    background-color: #ffe0a7;
+    border: 1px solid #95660e;
+}
+
+.form_button_withIcon
+{
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px 30px;
+}
+
+.form_button_alignCenter
+{
+    margin: 10px auto 0px;
+    width: 60px;
+}
+
